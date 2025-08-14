@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Twist and Wigs</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#C69C6D',secondary:'#2E2E2E'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-sm fixed w-full z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="text-3xl font-['Pacifico'] text-primary"><img src="images/royaltwistandbraids_logo-removebg-preview.png" width="80px"></a>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="#" class="text-secondary hover:text-primary font-medium transition-colors">Home</a>
+                <a href="#about" class="text-secondary hover:text-primary font-medium transition-colors">About</a>
+                <a href="#gallery" class="text-secondary hover:text-primary font-medium transition-colors">Services</a>
+                <a href="#testimonials" class="text-secondary hover:text-primary font-medium transition-colors">Testimonials</a>
+                <a href="#services" class="text-secondary hover:text-primary font-medium transition-colors">Shop wigs</a>
+                <a href="#blog" class="text-secondary hover:text-primary font-medium transition-colors">Blog</a>
+            </nav>
+            
+            <div class="flex items-center space-x-4">
+                <a href="#book" class="bg-primary text-white px-6 py-2 !rounded-button whitespace-nowrap font-medium hover:bg-opacity-90 transition-colors">Book Now</a>
+                <div class="md:hidden w-10 h-10 flex items-center justify-center cursor-pointer">
+                    <i class="ri-menu-line ri-lg"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section min-h-screen pt-20 flex items-center w-full">
+        <div class="container mx-auto px-4 w-full">
+            <div class="max-w-2xl py-20">
+                <h1 class="text-5xl md:text-6xl font-semibold mb-6 leading-tight">Royal Twist and Braids</h1>
+                <p class="text-2xl mb- max-w-xl" style="color: #C69C6D;">Elevate Your Style Royally</p> 
+                <p class="text-xl mb-8 max-w-xl">Specializing in bespoke braids, flawless twists, and high-quality wigs, our salon is where your hair
+                     aspirations come to life. Experience the difference that precision and passion make.</p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#book" class="bg-primary text-white px-8 py-3 !rounded-button whitespace-nowrap font-medium hover:bg-opacity-90 transition-colors text-center">Book Your Luxe Experience</a>
+                    <a href="#services" class="border-2 border-secondary text-secondary px-8 py-3 !rounded-button whitespace-nowrap font-medium hover:bg-secondary hover:text-white transition-colors text-center">Explore Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-semibold mb-4">Our Story</h2>
+                <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+                <p class="max-w-3xl mx-auto text-lg">Royal Twist and Wigs was born from a passion for hair and a dream to create a space where every client feels like royalty. 
+                    We are dedicated to celebrating your unique beauty with expertly crafted wigs and flawless braids.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="overflow-hidden rounded-lg h-80">
+                    <img src="images/Wigs For Black Women.jpeg" alt="Spa Reception" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="overflow-hidden rounded-lg h-80">
+                    <img src="images/Pinterest (1).jpeg" alt="Nail Service" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="overflow-hidden rounded-lg h-80">
+                    <img src="images/Premium Vietnamese  bone straight 4x4 closure wig 24inches long.jpeg" alt="Lash Service" class="w-full h-full object-cover object-top">
+                </div>
+                <div class="overflow-hidden rounded-lg h-80">
+                    <img src="images/Flawless French Curl Braided Wig - Etsy.jpeg" alt="Facial Treatment" class="w-full h-full object-cover object-top">
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center">
+                <p class="max-w-3xl mx-auto text-lg mb-8">Our team of highly trained professionals is committed to excellence, using only the finest products and techniques to deliver results that exceed expectations. We take pride in creating a warm, welcoming environment where every client feels valued and pampered.</p>
+                <a href="gallery.html" class="inline-flex items-center text-primary font-medium hover:underline">
+                    View our Gallery
+                    <i class="ri-arrow-right-line ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-[#f8f7f4]">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-semibold mb-4">Sleek Wig Collection</h2>
+                <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+                <p class="max-w-3xl mx-auto text-lg">Discover effortless elegance with our collection of sleek, straight wigs.
+                     Meticulously crafted for a flawless finish and a natural, polished look that will turn heads.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="service-card bg-white rounded-lg overflow-hidden shadow-sm">
+                    <div class="h-64 overflow-hidden">
+                        <img src="images/dcb8f016-aa7d-499d-b82b-96b7dad25b4d.jpeg" alt="Nail Services" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <div class="w-12 h-12 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                           <i class="ri-scissors-line text-primary ri-lg"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-3">Bob Wigs</h3>
+                        <p class="mb-4 text-gray-600">
+                             <li>Available in Various Length</li>
+                            <li>Available in multiple colors</li>
+                            <li>Premium hair quality</li>
+                            <li>Flawless finish</li>
+                        </p>
+                        <a href="https://wa.me/2348169440115" class="inline-block bg-primary text-white px-6 py-2 !rounded-button whitespace-nowrap font-medium hover:bg-opacity-90 transition-colors">Order Now</a>
+                    </div>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="service-card bg-white rounded-lg overflow-hidden shadow-sm">
+                    <div class="h-64 overflow-hidden">
+                        <img src="images/This item is unavailable - Etsy.jpeg" alt="Lash Services" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <div class="w-12 h-12 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                             <i class="ri-scissors-line text-primary ri-lg"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-3">Braided Wigs</h3>
+                        <p class="mb-4 text-gray-600">
+                             <li>Available in Various Length</li>
+                            <li>Available in multiple colors</li>
+                            <li>Premium hair quality</li>
+                            <li>Flawless finish</li>
+                        </p>
+                        <a href="https://wa.me/2348169440115" class="inline-block bg-primary text-white px-6 py-2 !rounded-button whitespace-nowrap font-medium hover:bg-opacity-90 transition-colors">Order Now</a>
+                    </div>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="service-card bg-white rounded-lg overflow-hidden shadow-sm">
+                    <div class="h-64 overflow-hidden">
+                        <img src="images/LUVME Best Sellers Wigs _ BIG SALE.jpeg" alt="Facial Services" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <div class="w-12 h-12 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                             <i class="ri-scissors-line text-primary ri-lg"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-3">Pixie curls</h3>
+                        <p class="mb-4 text-gray-600">
+                             <li>Available in Various Length</li>
+                            <li>Available in multiple colors</li>
+                            <li>Premium hair quality</li>
+                            <li>Flawless finish</li>
+                        </p>
+                        <a href="https://wa.me/2348169440115" class="inline-block bg-primary text-white px-6 py-2 !rounded-button whitespace-nowrap font-medium hover:bg-opacity-90 transition-colors">Order Now</a>
+                    </div>
+                </div>
+                
+                <!-- Service Card 4 -->
+                <div class="service-card bg-white rounded-lg overflow-hidden shadow-sm">
+                    <div class="h-64 overflow-hidden">
+                        <img src="images/FH brown color HD lace frontal human hair wig.jpeg" alt="Massage Services" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <div class="w-12 h-12 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                             <i class="ri-scissors-line text-primary ri-lg"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-3">Body wave wigs</h3>
+                        <p class="mb-4 text-gray-600">
+                             <li>Available in Various Length</li>
+                            <li>Available in multiple colors</li>
+                            <li>Premium hair quality</li>
+                            <li>Flawless finish</li>
+                        </p>
+                        <a href="https://wa.me/2348169440115" class="inline-block bg-primary text-white px-6 py-2 !rounded-button whitespace-nowrap font-medium hover:bg-opacity-90 transition-colors">Order Now</a>
+                    </div>
+                </div>
+                
+                <!-- Service Card 5 -->
+                <div class="service-card bg-white rounded-lg overflow-hidden shadow-sm">
+                    <div class="h-64 overflow-hidden">
+                        <img src="images/Elegant Kabinti Braided Wig - Handcrafted Luxury.jpeg" alt="Hair Services" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <div class="w-12 h-12 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                            <i class="ri-scissors-line text-primary ri-lg"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-3">Two step lemonade braids</h3>
+                        <p class="mb-4 text-gray-600">
+                             <li>Available in Various Length</li>
+                            <li>Available in multiple colors</li>
+                            <li>Premium hair quality</li>
+                            <li>Flawless finish</li>
+                        </p>
+                        <a href="https://wa.me/2348169440115" class="inline-block bg-primary text-white px-6 py-2 !rounded-button whitespace-nowrap font-medium hover:bg-opacity-90 transition-colors">Order Now</a>
+                    </div>
+                </div>
+                
+                <!-- Service Card 6 -->
+                <div class="service-card bg-white rounded-lg overflow-hidden shadow-sm">
+                    <div class="h-64 overflow-hidden">
+                        <img src="images/explore.jpeg" alt="Makeup Services" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <div class="w-12 h-12 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                             <i class="ri-scissors-line text-primary ri-lg"></i>
+                        </div> 
+                        <h3 class="text-2xl font-semibold mb-3">Bone straight</h3>
+                        <p class="mb-4 text-gray-600"> 
+                            <li>Available in Various Length</li>
+                            <li>Available in multiple colors</li>
+                            <li>Premium hair quality</li>
+                            <li>Flawless finish</li>
+                        </p>
+                        <a href="https://wa.me/2348169440115" class="inline-block bg-primary text-white px-6 py-2 !rounded-button whitespace-nowrap font-medium hover:bg-opacity-90 transition-colors">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center">
+                <h5>Can't find what you're looking for?</h5>
+                <a href="#pricing" class="inline-block border-2 border-primary text-primary px-8 py-3 !rounded-button whitespace-nowrap font-medium hover:bg-primary hover:text-white transition-colors">Send a Whatsapp Message</a>
+                <h5>We have much more in store</h5>
+            </div>
+        </div>
+    </section>
+<!-- 
+    <!-- Testimonials Section --
+    <section id="testimonials" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-semibold mb-4">Client Experiences</h2>
+                <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+                <p class="max-w-3xl mx-auto text-lg">Hear what our clients have to say about their experiences at our luxury spa and salon.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 --
+                <div class="testimonial-card bg-[#f8f7f4] p-8 rounded-lg">
+                    <div class="text-primary text-4xl mb-4">"</div>
+                    <p class="text-lg mb-6">The nail service I received was absolutely impeccable. The attention to detail and the quality of products used made this the best manicure I've ever had. The ambiance was so relaxing, I didn't want to leave!</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-200 rounded-full overflow-hidden mr-4">
+                            <img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20sophisticated%20woman%20with%20elegant%20hairstyle%20and%20natural%20makeup%20in%20a%20neutral%20background&width=100&height=100&seq=12&orientation=squarish" alt="Client" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Olivia Richardson</h4>
+                            <p class="text-sm text-gray-600">Signature Manicure</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 --
+                <div class="testimonial-card bg-[#f8f7f4] p-8 rounded-lg">
+                    <div class="text-primary text-4xl mb-4">"</div>
+                    <p class="text-lg mb-6">My lash extensions completely transformed my look! The technician was so knowledgeable and took the time to understand exactly what I wanted. The results exceeded my expectations, and the aftercare advice was so helpful.</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-200 rounded-full overflow-hidden mr-4">
+                            <img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20confident%20woman%20with%20beautiful%20eyelashes%20and%20elegant%20appearance%20against%20a%20neutral%20background&width=100&height=100&seq=13&orientation=squarish" alt="Client" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Sophia Martinez</h4>
+                            <p class="text-sm text-gray-600">Volume Lash Extensions</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 --
+                <div class="testimonial-card bg-[#f8f7f4] p-8 rounded-lg">
+                    <div class="text-primary text-4xl mb-4">"</div>
+                    <p class="text-lg mb-6">The facial treatment was absolutely divine. My skin has never looked so radiant! The therapist was incredibly knowledgeable and recommended products that have made a real difference to my skincare routine.</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-200 rounded-full overflow-hidden mr-4">
+                            <img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20an%20elegant%20man%20with%20well-groomed%20appearance%20and%20confident%20smile%20against%20a%20neutral%20background&width=100&height=100&seq=14&orientation=squarish" alt="Client" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">James Thompson</h4>
+                            <p class="text-sm text-gray-600">Luxury Facial Treatment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center">
+                <a href="#reviews" class="inline-flex items-center text-primary font-medium hover:underline">
+                    Read More Reviews
+                    <i class="ri-arrow-right-line ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Celebrity Clients Gallery -->
+    <section id="gallery" class="py-20 bg-[#f8f7f4]">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-semibold mb-4">Our Premium Services</h2>
+                <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+                <p class="max-w-3xl mx-auto text-lg">At Royal Twist and Wigs, we are masters of hair artistry. From expertly crafted twists and braids to luxurious, custom wigs and flawless installations, we offer a range of services designed to elevate your style with precision, passion, and a touch of royal elegance.</p>
+            </div>
+            
+            <div class="overflow-x-auto pb-4">
+                <div class="flex space-x-6 min-w-max">
+                    <div class="w-64 h-80 rounded-lg overflow-hidden relative group">
+                        <img src="images/15 Gorgeous Twist Braids Hairstyles You Need to Try _ Twist Braids For Black Women.jpeg" alt="Celebrity Client" class="w-full h-full object-cover object-top">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity flex items-end">
+                            <div class="p-6 text-white">
+                                <h4 class="text-xl font-semibold">Masterful Twist & Braids</h4>
+                                <p class="text-sm">Flawless and protective styles</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="w-64 h-80 rounded-lg overflow-hidden relative group">
+                        <img src="images/Ready to wear HD Glue-less Units Available 💕….jpeg" alt="Celebrity Client" class="w-full h-full object-cover object-top">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity flex items-end">
+                            <div class="p-6 text-white">
+                                <h4 class="text-xl font-semibold">Luxurious Wig Collection</h4>
+                                <p class="text-sm">Premium quality for a confident look.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="w-64 h-80 rounded-lg overflow-hidden relative group">
+                        <img src="images/Flawless French Curl Braided Wig - Etsy.jpeg" alt="Celebrity Client" class="w-full h-full object-cover object-top">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity flex items-end">
+                            <div class="p-6 text-white">
+                                <h4 class="text-xl font-semibold">Effortless Braided Wigs</h4>
+                                <p class="text-sm">Get the style you want instantly</p>
+                            </div>
+                        </div>
+                    </div>
+                 
+                    <div class="w-64 h-80 rounded-lg overflow-hidden relative group">
+                        <img src="images/royal1.jpg" alt="Celebrity Client" class="w-full h-full object-cover object-top">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity flex items-end">
+                            <div class="p-6 text-white">
+                                <h4 class="text-xl font-semibold">Our Signature Hair care collection</h4>
+                                <p class="text-sm">(Coming soon)</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="w-64 h-80 rounded-lg overflow-hidden relative group">
+                        <img src="images/royal2.jpg" alt="Celebrity Client" class="w-full h-full object-cover object-top">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity flex items-end">
+                            <div class="p-6 text-white">
+                                <h4 class="text-xl font-semibold">Our Signature wig care collection</h4>
+                                <p class="text-sm">(Coming soon)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            
+            <div class="mt-16 text-center">
+                <a href="https://www.instagram.com/onwuegbuzieokereke?utm_source=qr&igsh=MTFpNTA4Zm1uazh2NA==" class="inline-flex items-center text-primary font-medium hover:underline">
+                    Follow Us on Instagram
+                    <i class="ri-instagram-line ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog & Events Section -->
+    <section id="blog" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-semibold mb-4">Latest News & Events</h2>
+                <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+                <p class="max-w-3xl mx-auto text-lg">Stay updated with our latest beauty trends, events, and exclusive offers.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Blog Post 1 -->
+                <div class="bg-[#f8f7f4] rounded-lg overflow-hidden shadow-sm">
+                    <div class="h-56 overflow-hidden">
+                        <img src="images/The day I stopped breakage_ This changed it.jpeg" alt="Blog Post" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <span class="text-sm text-gray-500">August 5, 2025</span>
+                            <span class="mx-2 text-gray-300">|</span>
+                            <span class="text-sm text-primary">Tips for Heat Styling</span>
+                        </div> 
+                        <h3 class="text-xl font-semibold mb-3">Keep your hair healthy while you style with these quick tips:</h3>
+                        <p class="mb-4 text-gray-600">Protect It: Always apply a heat protectant spray before using any hot tools.
+                        Turn It Down: Use the lowest heat setting possible for your hair type.
+                        Check Your Tools: Use ceramic flat irons or wands on completely dry hair.</p>
+                        <!-- <a href="#blog-post" class="inline-flex items-center text-primary font-medium hover:underline">
+                            Read More 
+                            <i class="ri-arrow-right-line ml-2"></i>-->
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Event Post -->
+                <div class="bg-[#f8f7f4] rounded-lg overflow-hidden shadow-sm">
+                    <div class="h-56 overflow-hidden">
+                        <img src="images/POV_ you’re a wig girly but it’s braids season….jpeg" alt="Event Post" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <span class="text-sm text-gray-500">June 15, 2025</span>
+                            <span class="mx-2 text-gray-300">|</span>
+                            <span class="text-sm text-primary">Timeless Hair Looks</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Looking for a style that never goes out of fashion? Try one of these classics:</h3>
+                        <p class="mb-4 text-gray-600">The Bob: Chic and sophisticated.
+                             The Pixie: Bold and elegant.
+                             The Sleek Ponytail: Polished and versatile.
+                              Hollywood Waves: Pure glamour.
+                             The French Braid: Classic and beautiful</p>
+                        <!-- <a href="#event-details" class="inline-flex items-center text-primary font-medium hover:underline">
+                            Event Details 
+                            <i class="ri-arrow-right-line ml-2"></i>-->
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Blog Post 2 -->
+                <div class="bg-[#f8f7f4] rounded-lg overflow-hidden shadow-sm">
+                    <div class="h-56 overflow-hidden">
+                        <img src="images/KEUNE.jpeg" alt="Blog Post" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <span class="text-sm text-gray-500">May 2, 2025</span>
+                            <span class="mx-2 text-gray-300">|</span>
+                            <span class="text-sm text-primary">At-Home Styling </span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Elevate your home hairstyling with these must-have tools:</h3>
+                        <p class="mb-4 text-gray-600">Blow Dryer: For a salon-quality blowout.
+                          Round Brush: Adds volume and shape.
+                          Flat Iron: Perfect for sleek, straight looks or soft waves.
+                          Sectioning Clips: For easy, controlled styling.</p>
+                        <!-- <a href="#blog-post" class="inline-flex items-center text-primary font-medium hover:underline">
+                            Read More 
+                            <i class="ri-arrow-right-line ml-2"></i>-->
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+     
+        <!--  -->
+        <div class="container mx-auto px-4">
+          
+    <!-- Booking Section -->
+    <section id="book" class="py-20 bg-[#f8f7f4]">
+       <!-- From Uiverse.io by seyed-mohsen-mousavi --> 
+<div class="flex flex-col gap-2 w-60 sm:w-72 text-[10px] sm:text-xs z-50" id="alert" style="display: none;">
+  <div
+    class="error-alert cursor-default flex items-center justify-between w-full h-12 sm:h-14 rounded-lg bg-[#fff] px-[10px]"
+  >
+    <div class="flex gap-2">
+      <div class="alert backdrop-blur-xl p-1 rounded-lg">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z"
+          ></path>
+        </svg>
+      </div>
+      <div>
+        <p class="text-white"></p>
+        <p class="text-gray-500">The form is empty please fill in the required details.</p>
+      </div>
+    </div>
+    <button id="close-alert-btn"
+      class="text-gray-600 hover:bg-white/10 p-1 rounded-md transition-colors ease-linear"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="w-6 h-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M6 18 18 6M6 6l12 12"
+        ></path>
+      </svg>
+    </button>
+  </div>
+</div>
+            <!--  -->
+            <div class="max-w-5xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2 p-8 md:p-12">
+                        <h2 class="text-3xl font-semibold mb-6">Book Your Appointment</h2>
+                        <p class="mb-8 text-gray-600">Schedule your luxury experience with us. Complete the form below and our team will confirm your appointment.</p>
+                        
+                        <form>
+                            <div class="mb-4">
+                                <label for="name" class="block text-sm font-medium mb-2">Full Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Your full name">
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-sm font-medium mb-2">Email Address</label>
+                                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Your email address">
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="phone" class="block text-sm font-medium mb-2">Phone Number</label>
+                                <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Your phone number">
+                            </div>
+                            
+                            <!-- <div class="mb-4">
+                                <label for="service" class="block text-sm font-medium mb-2">Service</label>
+                                <div class="relative">
+                                     <select id="service" class="w-full px-4 py-2 border border-gray-300 rounded appearance-none focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent pr-8">
+                                        <option value="">Select a service</option>
+                                        <option value="nails"></option>
+                                        <option value="lashes">Lash Extensions</option>
+                                        <option value="facial">Facial Treatments</option>
+                                        <option value="massage">Massage Therapy</option>
+                                        <option value="hair">Hair Styling</option>
+                                        <option value="makeup">Makeup Services</option>
+                                    </select> 
+                                    <input type="text">
+                                    <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+                                        <i class="ri-arrow-down-s-line"></i>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            
+                            <div class="mb-4">
+                                <label for="text" class="block text-sm font-medium mb-2">Describe your desired service</label>
+                                <input type="text" id="date" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="date" class="block text-sm font-medium mb-2">Preferred Date</label>
+                                <input type="date" id="date" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label for="time" class="block text-sm font-medium mb-2">Preferred Time</label>
+                                <input type="time" id="time" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                            </div>
+                            
+                            <div class="flex items-center mb-6">
+                                <label class="custom-switch">
+                                    <input type="checkbox">
+                                    <span class="slider"></span>
+                                </label>
+                                <span class="ml-3 text-sm">Receive Newsletter Update From Us</span>
+                            </div>
+                            
+                            <button type="submit" class="w-full bg-primary text-white px-6 py-3 !rounded-button whitespace-nowrap font-medium hover:bg-opacity-90 transition-colors">Book Appointment</button>
+                        </form>
+                    </div>
+                    
+                    <div class="md:w-1/2 bg-cover bg-center" style="background-image: url('/images/Tuğçe\ Senetci\ _\ Interior\ Design….jpeg')">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- About Column -->
+                <div>
+                    <h3 class="text-2xl font-['Pacifico'] text-primary mb-6"><img src="images/royaltwistandbraids_logo-removebg-preview.png" width="100px"></h3>
+                    <p class="mb-6">Providing luxury beauty and experiences since 2025. Our mission is to help you look and feel your absolute best.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.instagram.com/onwuegbuzieokereke?utm_source=qr&igsh=MTFpNTA4Zm1uazh2NA==" class="social-icon w-10 h-10 flex items-center justify-center border border-white rounded-full">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.facebook.com/share/1GTBrXxyfk/" class="social-icon w-10 h-10 flex items-center justify-center border border-white rounded-full">
+                            <i class="ri-facebook-line"></i>
+                        </a>
+                        <a href="https://x.com/ROSEMARYOn73714?t=J6VdXjq8OpZCK1OthMCe-w&s=08" class="social-icon w-10 h-10 flex items-center justify-center border border-white rounded-full">
+                            <i class="ri-twitter-x-line"></i>
+                        </a>
+                        <a href="https://wa.me/2348169440115" class="social-icon w-10 h-10 flex items-center justify-center border border-white rounded-full">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#about" class="hover:text-primary transition-colors">About Us</a></li>
+                        <li><a href="#services" class="hover:text-primary transition-colors">Buy a wig</a></li>
+                        <li><a href="#book" class="hover:text-primary transition-colors">Book Appointment</a></li>
+                        <li><a href="#blog" class="hover:text-primary transition-colors">Blog & Events</a></li>
+                        <li><a href="#gallery" class="hover:text-primary transition-colors">Services</a></li>
+                        <li><a href="#contact" class="hover:text-primary transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Contact Us</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <div class="w-5 h-5 flex items-center justify-center mt-1 mr-3">
+                                <i class="ri-map-pin-line"></i>
+                            </div>
+                            <span>21223 Harbor Shore Dr,Texas USA</span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-3">
+                                <i class="ri-phone-line"></i>
+                            </div>
+                            <span>(+234-816-944-0115)</span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-5 h-5 flex items-center justify-center mr-3">
+                                <i class="ri-mail-line"></i>
+                            </div>
+                            <span>royaltwistandwigs@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Opening Hours -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Opening Hours</h4>
+                    <ul class="space-y-3">
+                        <li class="flex justify-between">
+                            <span>Monday - Friday</span>
+                            <span>9:00 AM - 8:00 PM</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span>Saturday</span>
+                            <span>9:00 AM - 6:00 PM</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span>Sunday</span>
+                            <span>10:00 AM - 5:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="pt-8 border-t border-gray-700 text-center text-sm">
+                <p>&copy; 2025 Royal Twist and Braids All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Sticky Bottom Bar (Hidden on Desktop) -->
+    <div class="md:hidden fixed bottom-0 left-0 right-0 bg-white shadow-lg py-3 px-4 flex justify-between items-center z-40">
+        <a href="#book" class="flex flex-col items-center text-xs">
+            <div class="w-6 h-6 flex items-center justify-center mb-1">
+                <i class="ri-calendar-line text-primary"></i>
+            </div>
+            <span>Book Now</span>
+        </a>
+        
+        <a href="tel:+2348169440115" class="flex flex-col items-center text-xs">
+            <div class="w-6 h-6 flex items-center justify-center mb-1">
+                <i class="ri-phone-line text-primary"></i>
+            </div>
+            <span>Call Us</span>
+        </a>
+        
+        <a href="#" class="flex flex-col items-center text-xs">
+            <div class="w-6 h-6 flex items-center justify-center mb-1">
+                <i class="ri-instagram-line text-primary"></i>
+            </div>
+            <span>Instagram</span>
+        </a>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
