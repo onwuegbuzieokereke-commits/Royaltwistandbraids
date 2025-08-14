@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Taste of Home</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> 
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/8390003684.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/contact.css">
+   </head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" style="margin-left: 50px;"><img src="images/royaltwistandbraids_logo-removebg-preview.png" width="80px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+        <a class="nav-link" href="gallery.html">Gallery</a>
+        <!-- <a class="nav-link" href="Aboutus.html">About Us</a>
+          <li class="nav-item">
+          <a class="nav-link" href="FAQ.html">FAQ</a>
+          </li> -->
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" style="color: #C69C6D">Contact</a>
+        </li>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="customAlert" class="custom-alert">
+    <span class="checkmark">✓</span>
+    <span>Your message has been sent successfully! We will get back to you soon.</span>
+    <button class="close-btn">×</button>
+</div>
+
+<div class="contact-container">
+    <div class="contact-header">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Please feel free to reach out with any questions, comments, or special requests.</p>
+    </div>
+    
+    <div class="contact-info-form">
+        <div class="contact-details">
+            <h2>Our Details</h2>
+            <p><strong>Address:</strong> 21223 Harbor Shore Dr,<br>                 Cypress, TX 77433</p>
+            <p><strong>Phone:</strong> 
+                 (+234-816-944-0115)</p>
+            <p><strong>Email:</strong> royaltwistandwigs@gmail.com</p>
+            <p><strong>Store Hours:</strong><br>                Monday - Friday: 9am - 8pm<br>                Saturday: 09am - 6pm<br>                Sunday: 10AM - 5PM</p>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send a Message</h2>
+            <form id="contactForm" action="https://formspree.io/f/xldlakan" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="contact-map">
+        <h2>Find Us on the Map</h2>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3458.8717430677307!2d-95.73868192584716!3d29.896796025553627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864129d344546dbf%3A0xecd55dc51baf5a2c!2s21223%20Hbr%20Shr%20Dr%2C%20Cypress%2C%20TX%2077433%2C%20USA!5e0!3m2!1sen!2sng!4v1754873118676!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+<script src="js/contact.js"></script>
+</body>
+</html>

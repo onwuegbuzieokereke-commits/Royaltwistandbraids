@@ -81,3 +81,8 @@
             background-color:#C69C6D;
             color: #2E2E2E;
         }
+
+        .footerend{
+            display: grid;
+            grid-template-columns: minmax(3,1fr);
+        }
