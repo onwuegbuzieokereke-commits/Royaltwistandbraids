@@ -8,7 +8,7 @@
             font-family: 'Cormorant Garamond', serif;
         }
         .hero-section {
-            background-image: linear-gradient(to right, rgba(250, 249, 246, 0.9), rgba(250, 249, 246, 0.7), rgba(250, 249, 246, 0.5), rgba(250, 249, 246, 0.3), rgba(250, 249, 246, 0)), url('/images/Tuğçe\ Senetci\ _\ Interior\ Design….jpeg');
+            background-image: linear-gradient(to right, rgba(250, 249, 246, 0.9), rgba(250, 249, 246, 0.7), rgba(250, 249, 246, 0.5), rgba(250, 249, 246, 0.3), rgba(250, 249, 246, 0)), url('/images/heroimmg.jpeg');
             background-size: cover;
             background-position: center;
         }
